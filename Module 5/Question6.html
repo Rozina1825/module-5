@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(245, 224, 192);
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+</head>
+<body>
+
+    <h2>GIVA.</h2>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="./R01295_5.webp" alt="Product 1">
+            <h3>Silver Glitter Ring</h3>
+            <p>$99.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R01388_5_e8486686-936a-41d9-9f63-3fbfdcd94ea3.jpg" alt="Product 2">
+            <h3> Vintage Ring</h3>
+            <p>$79.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R01465_5.webp" alt="Product 3">
+            <h3>Silver Claasic Solitaire Ring</h3>
+            <p>$59.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R01640_5.jpg" alt="Product 4">
+            <h3>Silver Stay with me Ring</h3>
+            <p>$89.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R0495_5_97d1afa9-6665-436b-89aa-3b7c9210149c.webp" alt="Product 5">
+            <h3> Silver Infinity Ring </h3>
+            <p>$49.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R053_5-min.webp" alt="Product 6">
+            <h3> Soul Of Love Ring</h3>
+            <p>$69.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R0499_5.webp" alt="Product 7">
+            <h3>Silver Shooting Star Ring</h3>
+            <p>$39.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R0714_5.jpg" alt="Product 8">
+            <h3>Vinki Ring</h3>
+            <p>$29.99</p>
+        </div>
+        <div class="product-card">
+            <img src="./R01506_5.webp" alt="Product 9">
+            <h3>Silver Twisted Ring</h3>
+            <p>$19.99</p>
+        </div>
+    </div>
+
+</body>
+</html>
